@@ -1,0 +1,123 @@
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        #container {
+                margin: 10px auto;
+                width: 100%;
+        }
+        #colourDisplay {
+            font-size: 100%;
+        }           
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+        #container {
+                margin: 20px auto;
+                width: 100%;
+        }
+        #colourDisplay {
+            font-size: 120%;
+        }        
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        #container {
+                margin: 20px auto;
+                width: 60%;
+        }
+        #colourDisplay {
+            font-size: 150%;
+        }        
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        #container {
+                margin: 20px auto;
+                width: 50%;
+        }
+        #colourDisplay {
+            font-size: 200%;
+        }        
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        #container {
+                margin: 20px auto;
+                width: 40%;
+        }
+        #colourDisplay {
+            font-size: 200%;
+        }
+    }
+
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Avenir", "Montserrat", "Arial";
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 50%;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	transition: background 0.5s;
+}
+
+
+
+h1 {
+	color: white;
+	line-height: 1.1;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}

@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bodyparser',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json PostRequestDemo@1.0.0 No description
+6 warn package.json PostRequestDemo@1.0.0 No repository field.
+7 warn package.json PostRequestDemo@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'bodyparser', null ]
+10 verbose cache add name=undefined spec="bodyparser" args=["bodyparser",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'bodyparser',
+11 verbose parsed url   path: 'bodyparser',
+11 verbose parsed url   href: 'bodyparser' }
+12 silly lockFile 981361c8-bodyparser bodyparser
+13 verbose lock bodyparser /home/gareththomasnz/.npm/981361c8-bodyparser.lock
+14 silly lockFile 981361c8-bodyparser bodyparser
+15 silly lockFile 981361c8-bodyparser bodyparser
+16 verbose addNamed [ 'bodyparser', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 6c35f799-bodyparser bodyparser@
+19 verbose lock bodyparser@ /home/gareththomasnz/.npm/6c35f799-bodyparser.lock
+20 silly addNameRange { name: 'bodyparser', range: '*', hasData: false }
+21 verbose request where is /bodyparser
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id d8436f2c6d12318f
+24 verbose url raw /bodyparser
+25 verbose url resolving [ 'https://registry.npmjs.org/', './bodyparser' ]
+26 verbose url resolved https://registry.npmjs.org/bodyparser
+27 verbose request where is https://registry.npmjs.org/bodyparser
+28 info trying registry request attempt 1 at 16:31:48
+29 http GET https://registry.npmjs.org/bodyparser
+30 http 404 https://registry.npmjs.org/bodyparser
+31 silly registry.get cb [ 404,
+31 silly registry.get   { 'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=0',
+31 silly registry.get     'content-length': '2',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     date: 'Thu, 15 Sep 2016 04:31:47 GMT',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     connection: 'keep-alive',
+31 silly registry.get     'x-served-by': 'cache-akl6420-AKL',
+31 silly registry.get     'x-cache': 'MISS',
+31 silly registry.get     'x-cache-hits': '0',
+31 silly registry.get     'x-timer': 'S1473913906.601693,VS0,VE663',
+31 silly registry.get     vary: 'Accept-Encoding' } ]
+32 silly lockFile 6c35f799-bodyparser bodyparser@
+33 silly lockFile 6c35f799-bodyparser bodyparser@
+34 error 404 Not Found
+34 error 404
+34 error 404 'bodyparser' is not in the npm registry.
+34 error 404 You should bug the author to publish it
+34 error 404 It was specified as a dependency of 'PostRequestDemo'
+34 error 404
+34 error 404 Note that you can also install from a
+34 error 404 tarball, folder, or http url, or git url.
+35 error System Linux 3.2.0-109-generic
+36 error command "/usr/bin/node" "/usr/bin/npm" "install" "bodyparser" "--save"
+37 error cwd /var/www/WebDevBootcamp/node/IntroToExpress/MoreExpress/PostRequestDemo
+38 error node -v v0.10.37
+39 error npm -v 1.4.28
+40 error code E404
+41 verbose exit [ 1, true ]

@@ -1,0 +1,12 @@
+<% include partials/header %>
+
+<h1>You own a <%= thingVar %> </h1>
+<% if(thingVar.toLowerCase() === "dog"){ %>
+        <p>Dogs are a cool pet</p> <% 
+        }else{ %>
+        <p> try putting 'dog'</p>       
+      <%  } %>
+
+<h2>This is the owner file</h2>
+
+<% include partials/footer %>

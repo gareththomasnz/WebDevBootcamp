@@ -1,0 +1,14 @@
+{
+  "name": "Assignment",
+  "version": "1.0.0",
+  "description": "Solution to first express exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gareth Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
