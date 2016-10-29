@@ -1,6 +1,6 @@
 # WebDevBootcamp
 
-Front and abck end web development
+Front and back end web development
 
 
 ## Built With
